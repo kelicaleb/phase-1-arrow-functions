@@ -1,4 +1,4 @@
-const divide = (num1, num2) =>{
+const divide = (num1=2000, num2=100) =>{
     console.log("number 1 = " + num1);
     console.log("number 1 = " + num2);
     return num1 / num2;
@@ -18,5 +18,6 @@ const add = (num1, num2) =>{
     return num1 + num2;
 
 }
+
 let a = add(3, 4)
 console.log(a)
